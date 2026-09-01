@@ -1,0 +1,74 @@
+{
+  "name": "Maedeh ✨️ Football Planner",
+  "short_name": "Maedeh",
+  "description": "Maedeh football planner",
+  "id": "./",
+  "start_url": "./index.html?v=4",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f3eee7",
+  "theme_color": "#59684f",
+  "dir": "rtl",
+  "lang": "fa",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Today",
+      "short_name": "Today",
+      "url": "./index.html#today",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Add Task",
+      "short_name": "Task",
+      "url": "./index.html#today-add",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Brain Dump",
+      "short_name": "Brain",
+      "url": "./index.html#brain",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Pomodoro",
+      "short_name": "Focus",
+      "url": "./index.html#pomodoro",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
